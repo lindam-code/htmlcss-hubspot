@@ -36,50 +36,55 @@ a {
 /* FINE REGOLE GENERALI */
 
 /* INIZIO HEADER */
-/* Inizio prima riga di navigazione  */
-header .page {
+/* colore del menu relativo alla pagina*/
+header nav .menu-site-relative {
   background-color: #f4f9fd;
   height: 80px;
 }
 
-header .page .col {
+header nav .menu-page-relative {
+  height: 80px;
+}
+
+/* Inizio regole generali nav */
+header nav .col {
   width: 50%;
 }
-header .page .col-menu-right {
+header nav .col-menu-right {
   text-align: right;
 }
 
-header .page .menu li {
+header nav .menu li {
   display: inline-block;
   color: #3b4e61;
   padding: 0px 10px;
   line-height: 80px;
 }
 
-header .page .menu li:first-child {
+header nav .menu li:first-child {
   padding-left: 0px;
 }
 
-header .page .menu li:last-child {
+header nav .menu li:last-child {
   padding-right: 0px;
 }
 
 /******* DA SISTEMARE IL BORDO  ******/
-header .page .menu #lenguage {
+header nav .menu #lenguage {
   border-left: 1px solid #3b4e61;
 }
 /******* DA SISTEMARE IL BORDO  ******/
 
-header .page .menu li a {
+header nav .menu li a {
   color: #33475b;
 }
 
-/* Inizio menu cerca, contatti e login */
-header .page .menu #search {
+/* Inizio menu cerca,login e free Hubspot */
+header nav .menu #search {
   color: #25b0c6;
 }
 
-header .page .menu #login {
+header nav .menu #login {
   color: #fe775a;
   background: white;
   border: 1px solid #fe775a;
@@ -87,18 +92,19 @@ header .page .menu #login {
   padding: 10px;
 }
 
-header .page .menu .free-button {
+header nav .menu .free-button {
   color: white;
   background: #fe775a;
   border-radius: 5px;
   padding: 10px;
 }
-/* Fine menu cerca, contatti e login */
-/* Fine prima riga di navigazione  */
+/* Fine menu cerca, login e free Hubspot */
 
+header hr {
+  color: #33475b;
+}
 
-
-
-
-
+header nav #logo {
+  line-height: 80px;
+}
 /* FINE HEADER */
