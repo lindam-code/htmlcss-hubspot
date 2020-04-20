@@ -1,0 +1,104 @@
+/* INIZIO RESET  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* FINE RESET */
+
+/* INIZIO REGOLE GENERALI */
+body {
+  font-family: "Montserrat";
+}
+.container {
+  width: 70%;
+  margin: auto;
+  height: 100%;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col {
+  float: left;
+}
+
+.menu {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+/* FINE REGOLE GENERALI */
+
+/* INIZIO HEADER */
+/* Inizio prima riga di navigazione  */
+header .page {
+  background-color: #f4f9fd;
+  height: 80px;
+}
+
+header .page .col {
+  width: 50%;
+}
+header .page .col-menu-right {
+  text-align: right;
+}
+
+header .page .menu li {
+  display: inline-block;
+  color: #3b4e61;
+  padding: 0px 10px;
+  line-height: 80px;
+}
+
+header .page .menu li:first-child {
+  padding-left: 0px;
+}
+
+header .page .menu li:last-child {
+  padding-right: 0px;
+}
+
+/******* DA SISTEMARE IL BORDO  ******/
+header .page .menu #lenguage {
+  border-left: 1px solid #3b4e61;
+}
+/******* DA SISTEMARE IL BORDO  ******/
+
+header .page .menu li a {
+  color: #33475b;
+}
+
+/* Inizio menu cerca, contatti e login */
+header .page .menu #search {
+  color: #25b0c6;
+}
+
+header .page .menu #login {
+  color: #fe775a;
+  background: white;
+  border: 1px solid #fe775a;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+header .page .menu .free-button {
+  color: white;
+  background: #fe775a;
+  border-radius: 5px;
+  padding: 10px;
+}
+/* Fine menu cerca, contatti e login */
+/* Fine prima riga di navigazione  */
+
+
+
+
+
+
+/* FINE HEADER */
