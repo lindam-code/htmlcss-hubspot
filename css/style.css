@@ -36,54 +36,46 @@ a {
 /* FINE REGOLE GENERALI */
 
 /* INIZIO HEADER */
-/* colore del menu relativo alla pagina*/
-header nav .menu-site-relative {
-  background-color: #f4f9fd;
-  height: 80px;
-}
-
-header nav .menu-page-relative {
-  height: 80px;
-}
-
-/* Inizio regole generali nav */
+/* Regole generali nav */
 header nav .col {
   width: 50%;
 }
 header nav .col-menu-right {
   text-align: right;
 }
-
 header nav .menu li {
   display: inline-block;
   color: #3b4e61;
   padding: 0px 10px;
   line-height: 80px;
 }
-
 header nav .menu li:first-child {
   padding-left: 0px;
 }
-
 header nav .menu li:last-child {
   padding-right: 0px;
 }
+/* Fine regole generali nav */
 
-/******* DA SISTEMARE IL BORDO  ******/
-header nav .menu #lenguage {
-  border-left: 1px solid #3b4e61;
+/* Inizio menu navigazione relativi al sito */
+header nav .menu-site-relative {
+  background-color: #f4f9fd;
+  height: 80px;
 }
-/******* DA SISTEMARE IL BORDO  ******/
-
+/* Inizio menu lingua e contatti */
+header nav .menu #contacts {
+  border-left: 1px solid #3b4e61;
+  padding-left: 20px;
+}
 header nav .menu li a {
   color: #33475b;
 }
+/* Fine menu lingua e contatti */
 
 /* Inizio menu cerca,login e free Hubspot */
 header nav .menu #search {
   color: #25b0c6;
 }
-
 header nav .menu #login {
   color: #fe775a;
   background: white;
@@ -91,7 +83,6 @@ header nav .menu #login {
   border-radius: 5px;
   padding: 10px;
 }
-
 header nav .menu .free-button {
   color: white;
   background: #fe775a;
@@ -99,12 +90,18 @@ header nav .menu .free-button {
   padding: 10px;
 }
 /* Fine menu cerca, login e free Hubspot */
+/* Fine menu navigazione relativi al sito */
 
 header hr {
   color: #33475b;
 }
 
+/* Inizio menu navigazione relativi alle pagine del sito */
+header nav .menu-page-relative {
+  height: 80px;
+}
 header nav #logo {
   line-height: 80px;
 }
+/* Fine menu navigazione relativi alle pagine del sito */
 /* FINE HEADER */
