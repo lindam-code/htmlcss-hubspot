@@ -104,4 +104,33 @@ header nav #logo {
   line-height: 80px;
 }
 /* Fine menu navigazione relativi alle pagine del sito */
+
+/* Inizio teaser */
+header .background-teaser {
+  height: 650px;
+  background-image: url("../img/jumbotron.png");
+  background-color: #fff1ee;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+  border-bottom: 3px solid #34495e;
+}
+
+/* Fine teaser */
+
+/* Inizio riga azzuarra fine dell'header */
+header .row-cyan {
+  height: 80px;
+  background-color: #afebe4;
+  border-bottom: 3px solid #34495e;
+}
+/* Fine riga azzuarra fine dell'header */
+
+
+
+
+
+
+
+
 /* FINE HEADER */
