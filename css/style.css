@@ -143,8 +143,6 @@ header .row-cyan {
 
 /* INIZIO MAIN */
 /* Inizio sezione servizi */
-
-/* Fine sezione servizi */
 main .services {
   background-color: #f4f9fd;
   height: 1500px;
@@ -263,25 +261,41 @@ main .services .no-crm .col hr {
   border: 1px solid #33475b;
 }
 /* Fine blocci servizi no CRM */
+/* Fine sezione servizi */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Inzio sezione network */
+main .network {
+  background: #00abb6;
+  color: white;
+  text-align: center;
+}
+main .network .container > * {
+  padding: 20px 0px;
+}
+main .network .container h2 {
+  width: 90%;
+  margin: 0px auto;
+}
+main .network .container .network-number .col {
+  width: 25%;
+  padding: 10px;
+  text-align: center;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+main .network .container .network-number .col:nth-child(4n+0) {
+border-right: 0px;
+}
+main .network .container .network-number .col:nth-child(1n+5) {
+border-bottom: 0px;
+}
+main .network .container .network-number img {
+  height: 30px;
+}
+main .network .container .network-number .big-number {
+  font-size: 30px;
+  font-weight: bold;
+}
+/* Fine sezione network */
 
 /* FINE MAIN */
