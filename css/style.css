@@ -139,3 +139,33 @@ header .row-cyan {
 /* Fine riga azzuarra fine dell'header */
 
 /* FINE HEADER */
+
+/* INIZIO MAIN */
+/* Inizio sezione servizi */
+
+/* Fine sezione servizi */
+main .services {
+  background-color: #f4f9fd;
+  height: 1500px;
+}
+/* Inizio blocco description */
+main .services .description {
+  text-align: center;
+  padding: 50px 70px;
+}
+main .services .description img {
+  height: 200px;
+}
+main .services .description h2 {
+  margin-bottom: 25px;
+}
+/* Fine blocco description */
+
+
+
+
+
+
+
+
+/* FINE MAIN */
