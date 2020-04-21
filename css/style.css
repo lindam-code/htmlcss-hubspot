@@ -10,6 +10,7 @@
 body {
   font-family: "Montserrat";
   color: #33475b;
+  line-height: 2;
 }
 .container {
   width: 70%;
@@ -116,7 +117,7 @@ header .background-teaser {
   border-bottom: 3px solid #33475b;
 }
 header .teaser {
-  width: 40%;
+  width: 50%;
   padding-top: 80px;
 }
 header .teaser .orange-button {
@@ -160,6 +161,66 @@ main .services .description h2 {
   margin-bottom: 25px;
 }
 /* Fine blocco description */
+
+/* Inizio blocco CRM */
+main .services .crm {
+  height: 300px;
+  border-radius: 5px;
+  background: white;
+  padding: 50px;
+}
+main .services .crm img {
+  height: 100px;
+  margin-bottom: 25px;
+}
+main .services .crm .col-left {
+  width: 30%;
+  text-align: center;
+  margin-right: 5%;
+}
+main .services .crm .col-right {
+  width: 65%;
+  text-align: left;
+}
+main .services .crm .col-right p {
+  margin: 10px 0px;
+}
+main .services .crm .col ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+main .services .crm .col ul li:nth-child(2) {
+  margin: 0px 20px;
+}
+main .services .crm .col ul li i {
+  color: #fe775a;
+}
+main .services .crm .col-right h4 {
+  text-transform: uppercase;
+  display: inline-block;
+}
+main .services .crm .col-right hr {
+  display: inline-block;
+  width: 300px;
+  margin-left: 100px;
+  border: 1px solid #33475b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
