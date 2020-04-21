@@ -10,7 +10,7 @@
 body {
   font-family: "Montserrat";
   color: #33475b;
-  line-height: 2;
+  line-height: 1.5;
 }
 .container {
   width: 70%;
@@ -204,10 +204,65 @@ main .services .crm .col-right hr {
   display: inline-block;
   width: 300px;
   margin-left: 100px;
-  border: 1px solid #33475b;
+   border: 1px solid #33475b;
+}
+/* Fine blocco CRM */
+
+/* Inizio blocchi servizi no CRM */
+main .services .no-crm {
+  margin-top: 50px;
+}
+
+main .services .no-crm .col{
+  border-radius: 5px;
+  background: white;
+  padding: 50px;
+  width: 30%;
+  text-align: center;
+}
+
+main .services .no-crm .col-center {
+  margin: 0px 5%;
 }
 
 
+main .services .no-crm img {
+  height: 100px;
+  margin-bottom: 25px;
+}
+
+main .services .no-crm p {
+  margin: 10px 0px;
+}
+
+main .services .no-crm .col ul {
+  text-align: left;
+}
+
+main .services .no-crm .col ul li {
+  list-style-type: none;
+}
+
+main .services .no-crm .col ul li i {
+  color: #fe775a;
+}
+
+main .services .no-crm .col ul {
+  margin-bottom: 50px;
+}
+
+main .services .no-crm .col h4 {
+  text-transform: uppercase;
+  margin: 25px 0px;
+}
+
+main .services .no-crm .col hr {
+  width: 98%;
+  margin: auto;
+  margin: 10px 10px;
+  border: 1px solid #33475b;
+}
+/* Fine blocci servizi no CRM */
 
 
 
