@@ -406,6 +406,7 @@ footer .language {
   margin: auto;
   text-align: center;
   padding-top: 80px;
+  padding-bottom: 25px;
 }
 footer .language a {
   color: white;
@@ -415,4 +416,24 @@ footer .language a:last-child {
   padding-right: 0px;
 }
 /* Fine menu lingue del footer */
+
+/* Inizio menu credits del footer */
+footer .credits {
+  padding: 50px 0px;
+}
+footer .credits .col-left {
+  width: 50%;
+}
+footer .credits .col-right  {
+  width: 50%;
+  text-align: right;
+}
+footer .credits .col-right a {
+  color: white;
+  padding-right: 25px;
+}
+footer .credits .col-right a:last-child {
+  padding-right: 0px;
+}
+/* Fine menu credits del footer  */
 /* FINE FOOTER */
