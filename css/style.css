@@ -299,14 +299,18 @@ main .network .container .network-number .big-number {
 /* Fine sezione network */
 
 /* Inizio sezione partners */
-main .partners .exhibit .col-left {
+/* Inizio regole generali  */
+main .partners .col-left {
   width: 40%;
   padding: 25px 100px;
 }
-main .partners .exhibit .col-right {
+main .partners .col-right {
   width: 50%;
   padding: 30px 0px;
 }
+/* Fine regole generali  */
+
+/* Inizio exhibion partners */
 main .partners .exhibit .col-left .big-number {
   font-size: 30px;
   font-weight: bold;
@@ -331,15 +335,31 @@ main .partners .exhibit .col-right .col:nth-child(5) img {
 main .partners .exhibit .col-right .col:nth-child(6) img {
   padding-bottom: 5px;
 }
+/* Fine exhibion partners */
 
+/* Inizio spot partners */
+main .partners .spot .col-left {
+  padding: 25px 0px;
+}
+main .partners .spot .col-left .teaser {
+  width: 100%;
+}
+main .partners .spot .col-left .teaser .orange-button {
+  display: inline-block;
+}
+main .partners .spot .col-left .teaser > * {
+  margin-bottom: 25px;
+}
+main .partners .spot .col-left .teaser p:last-child {
+  margin-bottom: 0px;
+}
+main .partners .spot .col-right {
+  padding: 0px;
+  text-align: right;
+}
+main .partners .spot .col-right img {
+  height: 350px;
+}
+/* Fine spot partners */
 /* Fine sezione partners */
-
-
-
-
-
-
-
-
-
 /* FINE MAIN */
