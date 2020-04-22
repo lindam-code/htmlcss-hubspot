@@ -400,4 +400,19 @@ footer nav .col .menu .widget a:last-child {
 }
 /* Fine menu di navigazione del footer */
 
+/* Inizio menu lingue del footer */
+footer .language {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding-top: 80px;
+}
+footer .language a {
+  color: white;
+  padding-right: 25px;
+}
+footer .language a:last-child {
+  padding-right: 0px;
+}
+/* Fine menu lingue del footer */
 /* FINE FOOTER */
