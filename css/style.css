@@ -363,3 +363,41 @@ main .partners .spot .col-right img {
 /* Fine spot partners */
 /* Fine sezione partners */
 /* FINE MAIN */
+
+/* INIZIO FOOTER */
+/* Inizio menu di navigazione del footer */
+footer {
+  background: #33475b;
+  color: white;
+}
+footer nav .col {
+  width: 25%;
+  padding-left: 25px;
+}
+footer nav .col h4 {
+  padding: 25px 0px;
+}
+footer nav .col .menu li {
+  padding: 5px 0px;
+}
+footer nav .col .menu li a {
+  color: white;
+}
+/* Ultima colonna del menu di navigazione del footer */
+footer nav .col .menu .orange-button {
+  color: #33475b;
+  background: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0px;
+}
+footer nav .col .menu .widget a {
+  padding-top: 15px;
+  padding-right: 25px;
+}
+footer nav .col .menu .widget a:last-child {
+  padding-right: 0px;
+}
+/* Fine menu di navigazione del footer */
+
+/* FINE FOOTER */
