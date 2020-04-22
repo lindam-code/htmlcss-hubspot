@@ -298,4 +298,48 @@ main .network .container .network-number .big-number {
 }
 /* Fine sezione network */
 
+/* Inizio sezione partners */
+main .partners .exhibit .col-left {
+  width: 40%;
+  padding: 25px 100px;
+}
+main .partners .exhibit .col-right {
+  width: 50%;
+  padding: 30px 0px;
+}
+main .partners .exhibit .col-left .big-number {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+main .partners .exhibit .col-right .col {
+  width: 25%;
+  line-height: 60px;
+  height: 60px;
+  padding: 0px 10px;
+  text-align: center;
+}
+main .partners .exhibit .col-right .col img {
+  width: 100%;
+}
+main .partners .exhibit .col-right .col:nth-child(3) img {
+  padding-top: 5px;
+}
+main .partners .exhibit .col-right .col:nth-child(5) img {
+  padding: 7px;
+}
+main .partners .exhibit .col-right .col:nth-child(6) img {
+  padding-bottom: 5px;
+}
+
+/* Fine sezione partners */
+
+
+
+
+
+
+
+
+
 /* FINE MAIN */
