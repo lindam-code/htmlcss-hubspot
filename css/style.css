@@ -31,7 +31,7 @@ body {
 a {
   text-decoration: none;
 }
-.orange-button {
+.cta {
   color: white;
   background: #fe775a;
   border-radius: 5px;
@@ -86,7 +86,7 @@ header nav .menu #login {
   border-radius: 5px;
   padding: 10px;
 }
-header nav .menu .orange-button {
+header nav .menu .cta {
   padding: 10px;
   color: white;
 }
@@ -120,7 +120,7 @@ header .teaser {
   width: 50%;
   padding-top: 80px;
 }
-header .teaser .orange-button {
+header .teaser .cta {
   display: inline-block;
 }
 header .teaser > * {
@@ -344,7 +344,7 @@ main .partners .spot .col-left {
 main .partners .spot .col-left .teaser {
   width: 100%;
 }
-main .partners .spot .col-left .teaser .orange-button {
+main .partners .spot .col-left .teaser .cta {
   display: inline-block;
 }
 main .partners .spot .col-left .teaser > * {
@@ -384,7 +384,7 @@ footer nav .col .menu li a {
   color: white;
 }
 /* Ultima colonna del menu di navigazione del footer */
-footer nav .col .menu .orange-button {
+footer nav .col .menu .cta {
   color: #33475b;
   background: white;
   border-radius: 5px;
