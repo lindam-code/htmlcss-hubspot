@@ -159,18 +159,23 @@ main .services .description h2 {
   margin-bottom: 25px;
 }
 /* Fine blocco description */
+/* Regole generali blocco description */
+main .services .col {
+  background: white;
+  padding: 50px;
+  border-radius: 5px;
+}
+main .services .col img {
+  height: 100px;
+  margin-bottom: 25px;
+}
 
 /* Inizio blocco CRM */
 main .services .crm {
   height: 300px;
-  border-radius: 5px;
   background: white;
-  padding: 50px;
 }
-main .services .crm img {
-  height: 100px;
-  margin-bottom: 25px;
-}
+
 main .services .crm .col-left {
   width: 30%;
   text-align: center;
@@ -211,10 +216,7 @@ main .services .no-crm {
   margin-top: 50px;
 }
 
-main .services .no-crm .col{
-  border-radius: 5px;
-  background: white;
-  padding: 50px;
+main .services .no-crm .col {
   width: 30%;
   text-align: center;
 }
@@ -223,11 +225,6 @@ main .services .no-crm .col-center {
   margin: 0px 5%;
 }
 
-
-main .services .no-crm img {
-  height: 100px;
-  margin-bottom: 25px;
-}
 
 main .services .no-crm p {
   margin: 10px 0px;
