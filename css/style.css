@@ -142,7 +142,7 @@ header .row-cyan {
 /* Inizio sezione servizi */
 main .services {
   background-color: #f4f9fd;
-  height: 1500px;
+  padding-bottom: 50px;
 }
 /* Inizio blocco description */
 main .services .description {
@@ -156,11 +156,14 @@ main .services .description h2 {
   margin-bottom: 25px;
 }
 /* Fine blocco description */
-/* Regole generali blocco description */
+
+/* Regole generali blocchi servizi */
 main .services .col {
   background: white;
   padding: 50px;
   border-radius: 5px;
+  width: 30%;
+  text-align: center;
 }
 main .services .col img {
   height: 100px;
@@ -169,43 +172,37 @@ main .services .col img {
 main .services .col p {
   margin: 10px 0px;
 }
+main .services .col hr {
+  margin: 10px 10px;
+  border: 1px solid #33475b;
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+}
+main .services .col h4 {
+  text-transform: uppercase;
+  display: inline-block;
+}
+main .services .col ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 10px;
+}
 main .services .col ul li i {
   color: #fe775a;
 }
+/* Fine regole generali blocchi servizi */
 
 /* Inizio blocco CRM */
 main .services .crm {
   background: white;
 }
-
-main .services .crm .col-left {
-  width: 30%;
-  text-align: center;
-  margin-right: 5%;
-}
 main .services .crm .col-right {
   width: 65%;
   text-align: left;
 }
-
-main .services .crm .col ul li {
-  list-style-type: none;
-  display: inline-block;
-  margin-top: 10px;
-}
 main .services .crm .col ul li:nth-child(2) {
   margin: 0px 20px;
-}
-
-main .services .crm .col-right h4 {
-  text-transform: uppercase;
-  display: inline-block;
-}
-main .services .crm .col-right hr {
-  display: inline-block;
-  width: 300px;
-  margin-left: 100px;
-   border: 1px solid #33475b;
 }
 /* Fine blocco CRM */
 
@@ -213,36 +210,12 @@ main .services .crm .col-right hr {
 main .services .no-crm {
   margin-top: 50px;
 }
-main .services .no-crm .col {
-  width: 30%;
-  text-align: center;
-}
 main .services .no-crm .col-center {
   margin: 0px 5%;
 }
-
 main .services .no-crm .col ul {
   text-align: left;
-}
-
-main .services .no-crm .col ul li {
-  list-style-type: none;
-}
-
-main .services .no-crm .col ul {
   margin-bottom: 50px;
-}
-
-main .services .no-crm .col h4 {
-  text-transform: uppercase;
-  margin: 25px 0px;
-}
-
-main .services .no-crm .col hr {
-  width: 98%;
-  margin: auto;
-  margin: 10px 10px;
-  border: 1px solid #33475b;
 }
 /* Fine blocci servizi no CRM */
 /* Fine sezione servizi */
@@ -311,7 +284,6 @@ main .partners .exhibit .col-right .col img {
   width: 100%;
   vertical-align: middle;
 }
-
 /* Fine exhibion partners */
 
 /* Inizio spot partners */
