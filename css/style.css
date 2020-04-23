@@ -64,6 +64,7 @@ header nav .menu li:last-child {
 header nav .menu-site-relative {
   background-color: #f4f9fd;
   height: 80px;
+  border-bottom: 1px solid #33475b;
 }
 /* Inizio menu lingua e contatti */
 header nav .menu #contacts {
@@ -92,10 +93,6 @@ header nav .menu .cta {
 }
 /* Fine menu cerca, login e free Hubspot */
 /* Fine menu navigazione relativi al sito */
-
-header hr {
-  color: #33475b;
-}
 
 /* Inizio menu navigazione relativi alle pagine del sito */
 header nav .menu-page-relative {
