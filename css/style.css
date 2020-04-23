@@ -309,19 +309,9 @@ main .partners .exhibit .col-right .col {
 }
 main .partners .exhibit .col-right .col img {
   width: 100%;
+  vertical-align: middle;
 }
-main .partners .exhibit .col-right .col:nth-child(3) img {
-  padding-top: 15px;
-}
-main .partners .exhibit .col-right .col:nth-child(4) img {
-  padding-top: 10px;
-}
-main .partners .exhibit .col-right .col:nth-child(5) img {
-  padding: 7px;
-}
-main .partners .exhibit .col-right .col:nth-child(6) img {
-  padding-bottom: 5px;
-}
+
 /* Fine exhibion partners */
 
 /* Inizio spot partners */
